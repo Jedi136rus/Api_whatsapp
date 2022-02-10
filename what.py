@@ -16,23 +16,23 @@ params = json.dumps(res.json(), sort_keys=True, indent=4)
 params = json.loads(params)
 
 # params = {
-#     "apikey": "4e63991d70fe408d3278700cc0d0abe9",
-#     "chat_id": "2a01:4f8:c17:ac8:3::16",
-#     "chat_key": "4e63991d70fe408d3278700cc0d0abe9",
-#     "chat_token": "tpUvBBfrqDegSyny",
-#     "date_add": 1644480795,
-#     "date_pay": 0,
-#     "date_subscription": 0,
-#     "date_trial": "null",
-#     "id": 27,
-#     "instanceId": "2a01:4f8:c17:ac8:3::16",
-#     "is_premium": 0,
-#     "md": 0,
-#     "name": "",
-#     "phone": "",
-#     "platform": "",
-#     "status": 0,
-#     "token": "tpUvBBfrqDegSyny"
+#     "apikey":
+#     "chat_id": 
+#     "chat_key": 
+#     "chat_token": 
+#     "date_add": 
+#     "date_pay": 
+#     "date_subscription": 
+#     "date_trial":
+#     "id":
+#     "instanceId": 
+#     "is_premium": 
+#     "md": 
+#     "name": 
+#     "phone": 
+#     "platform": 
+#     "status":
+#     "token": 
 # }
 
 res_status = api + other_method.format(ID=params["id"], METHOD="status", TOKEN=params['token'])  #Формирование qrCode
